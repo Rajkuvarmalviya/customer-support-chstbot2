@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Namaste", "Start"],
+      "responses": ["Hello! Welcome to our Electronics Store.", "Hi! How can I help you today?", "Namaste! Kya seva kar sakta hu?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Tata", "Exit", "Quit"],
+      "responses": ["Goodbye! Have a nice day.", "See you soon!", "Bye! Happy Shopping."]
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": ["What products do you have?", "Show me your items", "Product list", "List all items", "Electronics", "Items"],
+      "responses": ["We specialize in Laptops, Mobiles, and Smart Watches.", "You can buy Laptops and Phones from us."]
+    },
+    {
+      "tag": "laptop_search",
+      "patterns": ["Do you sell laptops?", "Show me HP laptop", "Dell laptop price", "I need a laptop", "Best gaming laptop", "Laptop", "Laptops", "Notebook", "Computer"],
+      "responses": ["We have HP, Dell, and Apple MacBooks available.", "Our laptops start from $500. Which brand do you prefer?"]
+    },
+    {
+      "tag": "mobile_search",
+      "patterns": ["Do you have iPhones?", "Samsung mobile ", "Show me phones", "I need a 5G phone", "Mobile", "Mobiles", "Phone", "Smartphone", "Android", "iPhone"],
+      "responses": ["We have the latest iPhone 15 and Samsung S24.", "Mobiles are available starting from $200."]
+    },
+    {
+      "tag": "price_inquiry",
+      "patterns": ["How much is this?", "What is the price?", "Cost please"],
+      "responses": ["Prices depend on the model. Please visit our website for details."]
+    },
+    {
+      "tag": "human_escalation",
+      "patterns": ["I want to talk to a human", "Connect me to agent", "Customer care number", "Agent se baat karao"],
+      "responses": ["Connecting you to a human agent... Please wait."]
+    },
+    {
+      "tag": "order_tracking",
+      "patterns": ["Track my order", "Mera order kahan hai?", "Where is my parcel?", "Check order status", "Order status", "Kab aayega parcel?"],
+      "responses": ["Sure! Kripya apna **Order ID (Number)** likhein.", "Main check kar sakta hu. Please apna **Order ID** type karein."]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": ["Return karna hai", "Return policy", "Product wapas kaise karun?", "Defective product", "Refund chahiye", "Exchange"],
+      "responses": ["Hum 7 dino ke andar 'No Question Asked' return policy offer karte hain.", "Agar product damage hai, toh 'My Orders' section mein jakar 'Return' par click karein."]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["Payment kaise karun?", "COD available hai?", "Cash on delivery", "UPI", "Credit card"],
+      "responses": ["Hum Credit/Debit Card, UPI, aur Cash on Delivery (COD) accept karte hain.", "Haan, Cash on Delivery (COD) available hai!"]
+    }
+  ]
+}
